@@ -1,0 +1,170 @@
+:root{
+	--dark: #8D3DAF;
+	--light: #d18eed;
+	--vlight: #eab8ff;
+}
+.headerTopArea {
+	border-bottom: 1px solid var(--vlight);
+}
+
+.headerTopArea a {
+	color: #34495e;
+	font-size: 0.89em;
+	font-weight: 600;
+}
+
+.headerBottomArea {
+	padding: 0px 0;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.container-fluid {
+	padding: 0px 0;
+}
+
+nav ul li a {
+	font-size: 1.1em;
+	font-weight: 600;
+}
+
+.hero-img1 {
+	height: 500px;
+	background-image: url("../imgs/hero-img-full.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: var(--vlight);
+}
+
+.blue-hero-div {
+	/* background-color: #3498db; */
+	background-color: var(--light);
+	color: white;
+}
+
+.feature-img {
+	width: 200px;
+}
+
+hr {
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+.requirements-section {
+	color: white;
+	background-color: var(--dark);
+}
+
+.darkbtn{
+	background-color: var(--dark);
+	border: var(--dark);
+}
+.lightbtn {
+	background-color: var(--light);
+	border: var(--light);
+}
+
+/* START : Newsletter section */
+.home-newsletter {
+	background: var(--dark);
+}
+
+.home-newsletter h3,h4 {
+	color: white;
+}
+
+.home-newsletter .form-control {
+	height: 50px;
+	border-color: transparent;
+	border-radius: 20px 0 0 20px;
+}
+
+.home-newsletter .btn {
+	min-height: 50px;
+	border-radius: 0 20px 20px 0;
+	background: var(--light);
+	color: #fff;
+}
+/* END : Newsletter section */
+a{
+	color: var(--dark);
+}
+.navdark {
+	background-color: var(--dark);
+}
+.navlight{
+	background-color: var(--light);
+}
+/* START : Seventh Section for Our Clients */
+.clients-section {
+	background-color: #f0f0f0;
+}
+/* END : Seventh Section for Our Clients */
+
+/* START : Footer */
+.fullfooter {
+	background-color: var(--dark);
+}
+
+.topFooter p {
+	color: white;
+}
+
+.topFooter h3 {
+	color: white;
+}
+
+.topFooter a {
+	color: white;
+}
+
+.bottomFooter {
+	background-color: var(--light);
+}
+
+.bottomFooter p {
+	color: #031b2e;
+	margin-bottom: 0;
+}
+/* END : Footer */
+
+/* END-------------------- of home page ---------------------- */
+
+.breadcrumb {
+	background-color: transparent;
+	padding: 0;
+}
+.section-breadcrumps{
+	background-color: aliceblue;
+}
+.address h4{
+	color: #3498db;
+}
+.address p {
+	color: #031b2e;
+	font-weight: 600;
+}
+
+/* START-------------------- Skill Set CSS ---------------------- */
+
+ .bar{
+	border: 1px solid #616161;
+	border-radius: 15px;
+	color: #FFF;
+	font-weight: 600;
+	
+ }
+
+/* END-------------------- Skill Set CSS ---------------------- */
+
+.navdark {
+	background-color: var(--dark);
+}
+.navlight{
+	background-color: var(--light);
+}
+
+.darkbg {
+    	background-color: var(--dark) !important;
+color: #fff !important;
+}
